@@ -1,6 +1,6 @@
 # Infinity
-ro.infinity.soc=Qualcomm® Snapdragon™ 855 (Octa-core, 7nm, up to 2.84 GHz) , with Qualcomm AI Engine
-ro.infinity.battery=3700 mAh (non-removable) Fast Charging (5V 4A)
-ro.infinity.display=1080 x 2340 Optic AMOLED, 60Hz, 6.41 inch Display
-ro.infinity.camera= Sony IMX 586 48MP Rear Main + 5MP Rear Secondary + Sony IMX 471 16MP Front
+ro.infinity.soc=Qualcomm® Snapdragon™ 855
+ro.infinity.battery=3700 mAh
+ro.infinity.display=1080 x 2340, 60Hz
+ro.infinity.camera=48MP + 5MP + 16MP
 ro.product.marketname=OnePlus 7
