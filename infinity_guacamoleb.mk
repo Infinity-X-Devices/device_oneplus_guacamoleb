@@ -29,6 +29,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
 TARGET_HAS_UDFPS := true
 
+# Exclude Aperture in favor of OnePlus Camera
+PRODUCT_NO_CAMERA := true
+
 # Gapps
 WITH_GAPPS := true
 
