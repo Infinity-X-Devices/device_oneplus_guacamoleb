@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2240
 TARGET_SCREEN_WIDTH := 1080
 
+# OOSCamera
+TARGET_SHIP_OOSCAM := true
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
