@@ -15,20 +15,28 @@ odm/etc/acdbdata/Speaker_cal.acdb
 vendor/lib/hw/audio.primary.msmnile.so:odm/lib/hw/audio.primary.msmnile.so;MODULE_SUFFIX=_odm
 
 # Camera
-odm/etc/camera/vidhance_calibration
-odm/lib64/camera/com.qti.sensor.gc5035.so
-odm/lib64/camera/com.qti.sensor.imx471.so
-odm/lib64/camera/com.qti.sensor.imx586.so
-odm/lib64/camera/com.qti.sensormodule.gcoreinc_gc5035.bin
-odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
-odm/lib64/camera/com.qti.sensormodule.sunny_imx520.bin
-odm/lib64/camera/com.qti.tuned.gcoreinc_gc5035.bin
-odm/lib64/camera/com.qti.tuned.gcoreinc_gc5035_18821.bin
-odm/lib64/camera/com.qti.tuned.semco_imx586.bin
-odm/lib64/camera/com.qti.tuned.semco_imx586_18821.bin
-odm/lib64/camera/com.qti.tuned.sunny_imx471.bin
-odm/lib64/camera/com.qti.tuned.sunny_imx471_18821.bin
+odm/etc/camera/vidhance_calibration|8e5b3e06df2081dd16af0dbc5ab98210efe8f51d
+odm/lib64/camera/com.qti.sensor.gc5035.so|f6cd192468a57615fafebf6298dcb357e94b502a
+odm/lib64/camera/com.qti.sensor.imx471.so|23b32ee640ba5033aa231dc7098f507e797ed236
+odm/lib64/camera/com.qti.sensor.imx586.so|a39d6a66f3b858bd34a4da1c2b67b5c938bf51d9
+odm/lib64/camera/com.qti.sensormodule.gcoreinc_gc5035.bin|84642cc643cfdfad24a53c88894106c1a3e73ca5
+odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin|f4325f5ebd74ccdcb8fc7e72533fb9b9bcb82ac0
+odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin|c681ffeb8124f84d1fcce804db9be4fb1365719e
+odm/lib64/camera/com.qti.sensormodule.sunny_imx520.bin|4785c4dbab05c2143c0b33d1e8f7e14c77cde756
+odm/lib64/camera/com.qti.tuned.gcoreinc_gc5035.bin|dc7d25c87d60d8620dbfe9fe7fa034df42dda245
+odm/lib64/camera/com.qti.tuned.gcoreinc_gc5035_18821.bin|91cd3eba6b2463c6d286eea6b9725a6015f6d73a
+odm/lib64/camera/com.qti.tuned.semco_imx586.bin|912f08e3a419854d82edc7511f08125f66f215ec
+odm/lib64/camera/com.qti.tuned.semco_imx586_18821.bin|3e06ab0d363b0155e6b67d66da117864def6aba0
+odm/lib64/camera/com.qti.tuned.sunny_imx471.bin|9323fdfa66fe7e4d28ce089ff7766296c41a5d18
+odm/lib64/camera/com.qti.tuned.sunny_imx471_18821.bin|92177c5f8e83e51134597865df20fe71b7fe3ad0
+odm/lib64/goldResult.bin|6f1e2d9cad68fda82c5168c7bdd2dac55f0df8cd
+odm/lib64/libarcsoft_dualcam_bokeh_api.so;SYMLINK=vendor/lib64/libarcsoft_dualcam_bokeh_api.so;DISABLE_CHECKELF|a050808a861312ff20348e40519abaaa8c3074a8
+odm/lib64/libarcsoft_dualcam_refocus_left.so;SYMLINK=vendor/lib64/libarcsoft_dualcam_refocus_left.so;DISABLE_CHECKELF|f7f08cc7681febbe40a8ee09b6cae95d7ed395ff
+odm/lib64/libarcsoft_dualcam_refocus_preview.so;SYMLINK=vendor/lib64/libarcsoft_dualcam_refocus_preview.so;DISABLE_CHECKELF|018bcfb955a8525cb02895001d5388b453634da7
+odm/lib64/libarcsoft_dualcam_refocus_right.so;SYMLINK=vendor/lib64/libarcsoft_dualcam_refocus_right.so;DISABLE_CHECKELF|bb953c796b589c0ff82e6a28b5a20906e5c1b752
+odm/lib64/libarcsoft_dualcam_refocus_uw.so;SYMLINK=vendor/lib64/libarcsoft_dualcam_refocus_uw.so;DISABLE_CHECKELF|c8c9a6a8b6cc049e65cf13f9d8fdca3c636c7c5d
+vendor/lib64/hw/camera.qcom.so|b39e21aa9fc6a658c467e17a16befcf5a8a0ef99
+vendor/lib64/hw/com.qti.chi.override.so|c1dcb5ced3f1883a9340293937fd020536007032
 
 # Fingerprint
 odm/vendor/firmware/gfp9508.b00
