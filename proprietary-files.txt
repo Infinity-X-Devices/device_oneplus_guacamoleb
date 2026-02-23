@@ -29,6 +29,9 @@ odm/lib64/camera/com.qti.tuned.semco_imx586.bin
 odm/lib64/camera/com.qti.tuned.semco_imx586_18821.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx471.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx471_18821.bin
+-odm/lib64/goldResult.bin|6f1e2d9cad68fda82c5168c7bdd2dac55f0df8cd
+-vendor/lib64/hw/camera.qcom.so|b6cd1ad7ebd3fd19d4b8f000c33131bb37f3f766
+-vendor/lib64/hw/com.qti.chi.override.so|6913d4f1c3b7ebd6e38c42a3b871073c326973fd
 
 # Fingerprint
 odm/vendor/firmware/gfp9508.b00
