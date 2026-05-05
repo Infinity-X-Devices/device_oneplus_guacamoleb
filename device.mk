@@ -43,8 +43,8 @@ PRODUCT_PACKAGES += \
 
 # AlertSlider
 PRODUCT_PACKAGES += \
-    MistSystemUIOverlay \
-    AlertSliderOverlay
+    AlertSliderOverlay \
+    SystemUIOverlay
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
