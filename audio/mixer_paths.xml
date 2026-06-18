@@ -4725,4 +4725,93 @@
     <path name="handset-mic-video-odm1">
         <path name="speaker-dmic-endfire-wechat-vm"/>
     </path>
+    <!-- Spatial Audio (spatializer -> HIFI usecase / MultiMedia2) -->
+    <path name="hifi-playback">
+        <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+    <path name="hifi-playback quat_i2s">
+        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+    <path name="hifi-playback speaker-protected">
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback speaker-safe">
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback speaker-and-display-port">
+        <path name="hifi-playback display-port" />
+    <!-- #ifdef  -->
+        <path name="hifi-playback quat_i2s" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback bt-sco">
+        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+    <path name="hifi-playback bt-sco-wb">
+        <!-- #ifdef -->
+        <!-- zhangrun@MM.Audio, 2019/08/30, fix bug HD-12197 qcom CR#2515179
+        <ctl name="BT SampleRate" value="KHZ_16" />
+        -->
+        <!-- #endif -->
+        <path name="hifi-playback bt-sco" />
+    </path>
+    <path name="hifi-playback speaker-and-usb-headphones">
+        <path name="hifi-playback usb-headphones" />
+    <!-- #ifdef  -->
+        <path name="hifi-playback quat_i2s" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback speaker-safe-and-usb-headphones">
+        <path name="hifi-playback usb-headphones" />
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback headphones">
+        <ctl name="SLIMBUS_6_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+    <path name="hifi-playback headset">
+        <path name="hifi-playback headphones" />
+    </path>
+    <path name="hifi-playback speaker-and-headphones">
+        <path name="hifi-playback headphones" />
+     <!-- #ifdef  -->
+       <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia2" value="1" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback speaker-safe-and-headphones">
+        <path name="hifi-playback headphones" />
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback speaker-and-bt-sco">
+        <path name="hifi-playback bt-sco" />
+    <!-- #ifdef  -->
+        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia2" value="1" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback speaker-safe-and-bt-sco">
+        <path name="hifi-playback bt-sco" />
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback speaker-and-bt-sco-wb">
+        <path name="hifi-playback bt-sco-wb" />
+    <!-- #ifdef  -->
+        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia2" value="1" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback speaker-safe-and-bt-sco-wb">
+        <path name="hifi-playback bt-sco-wb" />
+        <path name="hifi-playback" />
+    </path>
+    <path name="hifi-playback bt-a2dp">
+        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+    <path name="hifi-playback speaker-and-bt-a2dp">
+        <path name="hifi-playback bt-a2dp" />
+    <!-- #ifdef -->
+        <path name="hifi-playback quat_i2s" />
+    <!-- #endif -->
+    </path>
+    <path name="hifi-playback speaker-safe-and-bt-a2dp">
+        <path name="hifi-playback bt-a2dp" />
+        <path name="hifi-playback" />
+    </path>
 </mixer>
